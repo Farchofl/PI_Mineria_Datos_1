@@ -1,0 +1,62 @@
+05 - Conclusiones
+
+Objetivo
+
+En este notebook se presentan las conclusiones finales del proyecto a
+partir de los resultados obtenidos durante la inspección, limpieza,
+análisis exploratorio y aplicación del Análisis de Componentes
+Principales (PCA). Además, se describen las limitaciones encontradas y
+posibles mejoras para futuros trabajos.
+
+Hallazgos principales
+
+Durante el desarrollo del proyecto fue posible conocer mejor el
+comportamiento de los usuarios de la plataforma de streaming. Luego del
+proceso de limpieza, el conjunto de datos quedó preparado para realizar
+un análisis confiable.
+
+El análisis exploratorio permitió identificar la distribución de las
+edades, los planes de suscripción más utilizados y las diferencias en el
+tiempo de visualización según el plan y el país. También se observó que
+la información del dataset presenta un comportamiento consistente para
+continuar con análisis posteriores.
+
+Cumplimiento del objetivo
+
+El objetivo del proyecto fue analizar el conjunto de datos para obtener
+información útil sobre los usuarios de la plataforma. A través de las
+distintas etapas del trabajo se logró preparar los datos, explorar su
+contenido y aplicar PCA para reducir la dimensionalidad, permitiendo
+representar la información de manera más sencilla sin perder una parte
+importante de su contenido.
+
+Limitaciones
+
+Las conclusiones obtenidas dependen de la información disponible en el
+conjunto de datos. Algunas características de los usuarios o de la
+plataforma no se encuentran representadas, por lo que los resultados
+reflejan únicamente el comportamiento observado en este dataset. Además,
+el análisis se basa en variables registradas previamente y no incorpora
+información externa que podría ampliar el estudio.
+
+Mejoras futuras
+
+Como trabajo futuro sería interesante incorporar nuevas variables
+relacionadas con el comportamiento de los usuarios, como el tipo de
+dispositivo utilizado, horarios de uso o duración de cada sesión.
+También podrían aplicarse técnicas de agrupamiento o modelos predictivos
+para obtener información adicional a partir de los datos.
+
+Conclusión final
+
+En este proyecto se desarrolló un proceso completo de análisis de datos,
+comenzando por la inspección del conjunto de datos, continuando con la
+limpieza y preparación de la información y finalizando con el análisis
+exploratorio y la aplicación de PCA. Cada etapa permitió comprender
+mejor las características del dataset y obtener resultados claros a
+partir de los datos disponibles.
+
+En general, el proyecto cumplió con los objetivos planteados y permitió
+aplicar de manera práctica los conceptos aprendidos durante la materia.
+Además, el trabajo dejó un conjunto de datos limpio y organizado, listo
+para ser utilizado en futuros análisis.
