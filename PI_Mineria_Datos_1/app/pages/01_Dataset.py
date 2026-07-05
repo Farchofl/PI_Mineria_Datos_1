@@ -37,14 +37,4 @@ except Exception as e:
 
 
 
-    import os
-import streamlit as st
-import pandas as pd
-
-@st.cache_data
-def load_data():
-    # Obtiene la ruta de la carpeta raíz (donde está el JSON)
-    # Suponiendo que el JSON está al mismo nivel que la carpeta 'app'
-    base_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    file_path = os.path.join(base_path, "streaming_users_clean (2).json")
-    return pd.read_json(file_path)
+ 
