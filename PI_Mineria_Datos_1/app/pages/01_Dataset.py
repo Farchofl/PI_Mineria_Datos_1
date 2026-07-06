@@ -18,7 +18,7 @@ layout="wide"
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
-archivo = BASE_DIR / "data" / "processed" / "dataset_final.csv"
+archivo = BASE_DIR / "data" / "processed" / streaming_users_clean (2).json
 
 # ----------------------------------------------------
 # Cargar dataset
