@@ -18,7 +18,7 @@ layout="wide"
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
-archivo = BASE_DIR / "data" / "processed" / streaming_users_clean (2).json
+archivo =PI_Mineria_Datos_1/tree/main/PI_Mineria_Datos_1/data/processed / streaming_users_clean (2).json
 
 # ----------------------------------------------------
 # Cargar dataset
