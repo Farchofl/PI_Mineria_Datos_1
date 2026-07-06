@@ -61,19 +61,20 @@ df.notnull().sum().sum()
 / (df.shape[0] * df.shape[1])
 ) * 100
 
-c1, c2, c3 = st.columns(3)
+# Assuming 'calle' is a placeholder for st (streamlit)
+col1, col2, col3 = st.columns(3)
 
-with c1:
-st.metric("📄 Registros", registros)
-st.metric("🏷️ Variables categóricas", categoricas)
+with col1:
+    st.metric("📄 Registros", registros)
+    st.metric("🏷️ Variables categóricas", categoricas)
 
-with c2:
-st.metric("🧩 Variables totales", variables)
-st.metric("🚨 Valores faltantes", faltantes)
+with col2:
+    st.metric("🧩 Variables totales", variables)
+    st.metric("🚨 Valores faltantes", faltantes)
 
-with c3:
-st.metric("🔢 Variables numéricas", numericas)
-st.metric("✅ Calidad de datos", f"{calidad:.2f}%")
+with col3:
+    st.metric("🔢 Variables numéricas", numericas)
+    st.metric("✅ Calidad de datos", f"{calidad:.2f}%")
 
 st.info(
 f"El conjunto de datos contiene {df.shape[0]} registros y {df.shape[1]} variables."
